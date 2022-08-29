@@ -2,6 +2,7 @@
 
 Replace all numerals in the world into Arabic numerals.
 
+```
 000030: 0123456789
 000660: ٠١٢٣٤٥٦٧٨٩
 0006f0: ۰۱۲۳۴۵۶۷۸۹
@@ -57,4 +58,4 @@ Replace all numerals in the world into Arabic numerals.
 01d7e2: 𝟢𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫
 01d7ec: 𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵
 01d7f6: 𝟶𝟷𝟸𝟹𝟺𝟻𝟼𝟽𝟾𝟿
-
+```
