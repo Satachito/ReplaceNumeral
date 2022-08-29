@@ -4,7 +4,7 @@ For the use case, visit our awesome calculator site, https://slip.828.tokyo/
 
 Replace all numerals in the world into Arabic numerals.
 
-#install
+# install
 
 ```
 npm i @satachito/replace-numeral
