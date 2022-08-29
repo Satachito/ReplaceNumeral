@@ -1,5 +1,5 @@
 {
-  "name": "@satachito/ReplaceNumeral",
+  "name": "@satachito/replace-numeral",
   "version": "1.0.0",
   "description": "Replace all numerals in the world into Arabic numerals.",
   "main": "_.js",
@@ -8,9 +8,8 @@
     "url": "git+https://github.com/Satachito/ReplaceNumeral.git"
   },
   "keywords": [
-    "Convert",
-    "Numeric",
-    "Character",
+    "Replace",
+    "Numeral",
     "International",
     "Arabic"
   ],
