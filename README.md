@@ -1,6 +1,18 @@
 # ReplaceNumeral
 
+For the use case, visit our awesome calculator site, https://slip.828.tokyo/
+
 Replace all numerals in the world into Arabic numerals.
+
+# Usage
+
+```
+import ReplaceNumeral from './_.js'
+console.log( ReplaceNumeral( '０１２３４５６７８９０１２３４５６７８９' ) )
+console.log( ReplaceNumeral( '𐒠𐒡𐒢𐒣𐒤𐒥𐒦𐒧𐒨𐒩𐒠𐒡𐒢𐒣𐒤𐒥𐒦𐒧𐒨𐒩' ) )
+```
+
+# Accurate listings
 
 ```
 000030: 0123456789
