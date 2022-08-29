@@ -1,0 +1,24 @@
+{
+  "name": "@satachito/ReplaceNumeral",
+  "version": "1.0.0",
+  "description": "Replace all numerals in the world into Arabic numerals.",
+  "main": "_.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satachito/ReplaceNumeral.git"
+  },
+  "keywords": [
+    "Convert",
+    "Numeric",
+    "Character",
+    "International",
+    "Arabic"
+  ],
+  "author": "Satoru Ogura <satoru.ogura@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Satachito/ReplaceNumeral/issues"
+  },
+  "homepage": "https://github.com/Satachito/ReplaceNumeral#readme",
+  "type": "module"
+}

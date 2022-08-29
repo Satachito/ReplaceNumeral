@@ -1,0 +1,18 @@
+<header><a href=https://slip.828.tokyo>For the use case, visit our awesome calculator site! https://slip.828.tokyo/</a></header>
+<label>Input text</label><br>
+<textarea id=TEXT rows=80 cols=40></textarea><br>
+<input type=button id=CONVERT value="Convert">
+<input type=button id=SAMPLE value="Load samples"><br>
+
+<script type=module>
+import ReplaceNumeral, { code0s } from './_.js'
+CONVERT.onclick = _ => TEXT.value = ReplaceNumeral( TEXT.value )
+SAMPLE.onclick = _ => TEXT.value = code0s.reduce(
+	( $, code0 ) => $ + code0.toString( 16 ).padStart( 6, '0' ) + ': ' + String.fromCodePoint(
+		...[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ].map( _ => code0 + _ )
+	) + '\n'
+,	''
+)
+SAMPLE.click()
+</script>
+
