@@ -4,12 +4,20 @@ For the use case, visit our awesome calculator site, https://slip.828.tokyo/
 
 Replace all numerals in the world into Arabic numerals.
 
+#install
+
+```
+npm i @satachito/replace-numeral
+```
+
 # Usage
 
 ```
 import ReplaceNumeral from './_.js'
 console.log( ReplaceNumeral( '０１２３４５６７８９０１２３４５６７８９' ) )
+01234567890123456789
 console.log( ReplaceNumeral( '𐒠𐒡𐒢𐒣𐒤𐒥𐒦𐒧𐒨𐒩𐒠𐒡𐒢𐒣𐒤𐒥𐒦𐒧𐒨𐒩' ) )
+01234567890123456789
 ```
 
 # Accurate listings
