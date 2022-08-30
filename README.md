@@ -10,6 +10,10 @@ Replace all numerals in the world into Arabic numerals.
 npm i @satachito/replace-numeral
 ```
 
+# Demo
+
+https://satachito.github.io/ReplaceNumeral/
+
 # Usage
 
 ```
